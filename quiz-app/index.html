@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
 
@@ -15,15 +16,22 @@
   <h1>Quiz app</h1>
 
   <div class="info">
-    What are the earliest cephalopods found in the fossil record ?
+    <div class="question">
+      What are the earliest cephalopods found in the fossil record ?
+    </div>
+
     <div class="bookmark">
       <img class="bookmarkicon" alt="" src="assets/bookmark.svg" />
     </div>
-    <div class="answer">Show answer</div>
-    <div class="tag">Nautilus</div>
-    <div class="tag">Squids</div>
-    <div class="tag">Octopuses</div>
-    <div class="tag">Ammonites</div>
+
+    <span class="answer">Show answer</span>
+
+    <div class="tagcontainer">
+      <span class="tag">Nautilus</span>
+      <span class="tag">Squids</span>
+      <span class="tag">Octopuses</span>
+      <span class="tag">Ammonites</span>
+    </div>
   </div>
 
   <div class="info"></div>
@@ -35,13 +43,11 @@
   <body></body>
 
   <footer>
-    <nav>
-      <div>
-        <a> <img src="assets/house.svg" alt="Back to home button" /></a>
-        <a>
-          <img src="assets/circle-user-round.svg" alt="user button" />
-        </a>
-      </div>
+    <nav class="navigation">
+      <a> <img src="assets/house.svg" alt="Back to home button" /></a>
+      <a>
+        <img src="assets/circle-user-round.svg" alt="user button" />
+      </a>
     </nav>
   </footer>
 </html>
