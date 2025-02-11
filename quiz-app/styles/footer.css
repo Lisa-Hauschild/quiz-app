@@ -1,0 +1,17 @@
+footer {
+  background-color: var(--themecolor);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/*unfortunately not spanning the whole width of the <img>*/
+.nav-link:hover {
+  background-color: rgb(148, 146, 143);
+}

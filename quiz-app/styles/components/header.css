@@ -1,5 +1,5 @@
 div {
-  background-color: rgb(45, 119, 151);
+  background-color: var(--themecolor);
 }
 
 .head {

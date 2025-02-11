@@ -9,7 +9,13 @@ body {
   font-size: 1.25rem;
 }
 
-ul {
+ul,
+li {
   list-style: none;
   padding: 0;
+}
+
+:root {
+  --themecolor: rgb(45, 119, 151);
+  --cardcolor: rgb(107, 107, 152);
 }
