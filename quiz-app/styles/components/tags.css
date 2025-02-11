@@ -1,0 +1,14 @@
+.tag-list {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.tag-list__item {
+  background-color: var(--themecolor);
+  color: rgb(28, 28, 114);
+  padding: 0.5rem 0.5rem;
+  border-radius: 4px;
+  border: solid black;
+  font-size: 2rem;
+}

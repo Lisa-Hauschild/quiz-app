@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.25rem;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+:root {
+  --themecolor: rgb(45, 119, 151);
+  --cardcolor: rgb(107, 107, 152);
+}
