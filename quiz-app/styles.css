@@ -75,24 +75,19 @@ h1 {
   right: 7rem;
 }
 
-/*
-  .tagcontainer {
+.tag {
+  background-color: beige;
+  border-radius: 15px;
+  min-width: 1vh;
+  min-height: 1.5vh;
+  padding: 0.5rem;
+}
 
-      display: flex;
-      gap: 10px;
-      justify-content: space-around;
-  
-  }
-
-
-  .tag {
-    background-color: beige;
-    border-radius: 15px;
-    min-width: 1vh;
-    min-height: 1.5vh;
-    padding: 0.5rem;
-  }
-  */
+.tagcontainer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
 
 footer {
   background-color: rgb(45, 119, 151);
@@ -106,4 +101,3 @@ footer {
   gap: 10px;
   justify-content: space-around;
 }
-/*fixing the footer position: fixed*/
