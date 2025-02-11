@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quizapp</title>
+    <title>Quiz App</title>
 
-    <div>
+    <div class="head">
       <img
         src="data:image/png;base64,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"
       />
     </div>
   </head>
 
-  <h1>some text</h1>
-  <div class="info"></div>
+  <h1>Quiz app</h1>
+
+  <div class="info">
+    <div class="question">
+      What are the earliest cephalopods found in the fossil record ?
+    </div>
+
+    <div class="bookmark">
+      <img class="bookmarkicon" alt="" src="assets/bookmark.svg" />
+    </div>
+
+    <span class="answer">Show answer</span>
+
+    <div class="tagcontainer">
+      <span class="tag">Nautilus</span>
+      <span class="tag">Squids</span>
+      <span class="tag">Octopuses</span>
+      <span class="tag">Ammonites</span>
+    </div>
+  </div>
+
   <div class="info"></div>
   <div class="info"></div>
   <div class="info"></div>
@@ -21,6 +41,15 @@
   <div class="info"></div>
 
   <body></body>
+
+  <footer>
+    <nav class="navigation">
+      <a> <img src="assets/house.svg" alt="Back to home button" /></a>
+      <a>
+        <img src="assets/circle-user-round.svg" alt="user button" />
+      </a>
+    </nav>
+  </footer>
 </html>
 
 <!--
