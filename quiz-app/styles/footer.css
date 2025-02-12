@@ -12,6 +12,17 @@ footer {
 }
 
 /*unfortunately not spanning the whole width of the <img>*/
-.nav-link:hover {
+.home__button:hover {
   background-color: rgb(148, 146, 143);
+  border-radius: 18px;
+}
+
+.user__botton:hover {
+  background-color: rgb(148, 146, 143);
+  border-radius: 99px;
+}
+
+.bookmarks__button:hover {
+  background-color: rgb(148, 146, 143);
+  border-radius: 18px;
 }

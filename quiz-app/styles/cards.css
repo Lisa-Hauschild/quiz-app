@@ -31,6 +31,12 @@ button.card__button {
   background-color: rgb(218, 198, 198);
 }
 
+.bookmark {
+  position: absolute;
+  top: -2rem;
+  right: 0.8rem;
+}
+
 .card__answer {
   display: none;
   text-align: center;
