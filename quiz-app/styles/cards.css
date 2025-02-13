@@ -37,6 +37,10 @@ button.card__button {
   right: 0.8rem;
 }
 
+.data-js-bookmark__icon__active {
+  fill: rgb(226, 26, 26);
+}
+
 .card__answer {
   display: none;
   text-align: center;
